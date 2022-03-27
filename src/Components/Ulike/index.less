@@ -1,0 +1,38 @@
+.uLike {
+    background-color: #fff;
+    .infiniteScroll {
+        min-height: 0.6rem;
+        display: flex;
+        justify-content: space-around;
+        .left, .right {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            align-items: flex-start;
+            flex: 0 0 48%;
+            align-items: center;
+            .card {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #fff;
+                border: solid 0.06rem #eee;
+                margin-bottom: 0.6rem;
+                img {
+                    width: 100%;
+                }
+                p {
+
+                }
+            }
+        }
+        .clearfloat {
+            clear: both;
+            height: 0;
+        }
+    }
+    .loading {
+        height: 2.4rem;
+    }    
+}

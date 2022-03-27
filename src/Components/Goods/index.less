@@ -1,0 +1,61 @@
+.mcInfo {
+    padding: 0 0.6rem;
+    background-color: #fff;
+    div {
+        padding: 0.13rem 0;
+    }
+    .priceInfo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .price {
+            color: rgb(230, 70, 106);
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            .priceNum {
+                font-size: 2.4rem;
+                vertical-align: bottom;
+            }
+        }
+        .discount {
+            height: 1.8rem;
+            line-height: 1.8rem;
+            background-color: rgb(230, 70, 106);
+            color: #fff;
+            border-radius: 1rem;
+            padding: 0 1rem;
+        }
+    }
+    .discountTag {
+        display: flex;
+        justify-content: space-between;
+    }
+    .goodName {
+        display: flex;
+        text-align: left;
+        .name {
+            color: #000;
+            font-weight: 700;
+        }
+        .ticket {
+            flex-shrink: 0;
+        }
+    }
+    .activity, .logistics {
+        padding: 0.3rem 0;
+        border-top: solid 0.06rem #ddd;
+    }
+    .activity {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logistics {
+        display: flex;
+        .right {
+            border-left: solid 0.06rem #ccc;
+            padding-left: 0.3rem;
+        }
+    }
+}

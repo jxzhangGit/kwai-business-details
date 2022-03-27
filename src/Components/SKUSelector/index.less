@@ -1,0 +1,77 @@
+.popup {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    .sku, .popupBottom {
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    .sku {
+        display: flex;
+        height: 80px;
+        .skuImg {
+            img {
+                width: 4.8rem;
+                height: 4.8rem;
+            }
+        }
+        .skuInfo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 1.2rem;
+            .price {
+                color: #FC436C;
+                span {
+                    font-size: 2.4rem;
+                }
+            }
+        }
+    }
+    .popupBottom {
+        display: flex;
+        flex-direction: column;
+        height: 4.8rem;
+        .limitation {
+            span {
+                color: #bbb;
+            }
+        }
+        .cofirm {
+            line-height: 2.4rem;
+            border-radius: 2.4rem;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #FC436C;
+            text-align: center;
+        }
+    }
+    .selector {
+        flex: 1;
+        color: #000;
+        .title {
+            font-weight: 700;
+        }
+        .option {
+            display: flex;
+            div {
+                background-color: #eee;
+                margin: 0.3rem;
+                padding: 0 0.6rem;
+                border-radius: 0.12rem;
+                line-height: 1.2rem;
+            }
+            .specActive {
+                color: #FC436C;
+                border: solid 1px #FC436C;
+            }
+            .specDisabled {
+                color: #aaa;
+            }
+        }
+    }
+}
