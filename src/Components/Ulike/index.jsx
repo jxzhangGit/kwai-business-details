@@ -66,7 +66,7 @@ function Ulike() {
     }, [newCardList]);
     return (
         <div className='uLike'>
-            <div>
+            <div className='title'>
                 猜你喜欢
             </div>
             <div className="infiniteScroll">

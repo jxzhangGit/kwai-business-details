@@ -36,7 +36,7 @@ function Goods() {
                 </div>
                 <div className="goodName">
                     <div>
-                        <Tag color='#FDEEF3' style={{ 'fontSize': '18px', '--text-color': '#FC436C' }}>满6.90减6.89</Tag>
+                        <Tag color='#FDEEF3' style={{ 'fontSize': '1.1rem', '--text-color': '#FC436C' }}>满6.90减6.89</Tag>
                         <div>
                             <Tag color='#F25752'>新人专享</Tag>&nbsp;
                             <Tag color='#EA9545'>预售</Tag>&nbsp;

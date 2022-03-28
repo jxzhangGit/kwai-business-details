@@ -8,7 +8,7 @@ function McNavBar() {
       <NavBar
         style={{
           '--height': '2.25rem',
-          '--border-bottom': '1px #eee solid',
+          '--border-bottom': '0.06rem #eee solid',
           'backgroundColor': '#fff',
         }}
         backArrow={<CloseOutline fontSize={18} />}
